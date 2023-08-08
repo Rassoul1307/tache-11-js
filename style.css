@@ -1,0 +1,124 @@
+.search {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+  }
+  
+  .search input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search button[type="submit"] {
+    background-color: #4e99e9;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: .9s ease;
+  }
+  
+  .search button[type="submit"]:hover {
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+    background-color: blue;
+  }
+  
+
+  .gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #7e40f6;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(
+      to right,
+      rgba(126, 64, 246, 1),
+      rgba(80, 139, 252, 1)
+    );
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(
+      to right,
+      rgba(126, 64, 246, 1),
+      rgba(80, 139, 252, 1)
+    );
+  }
+  
+  .mask-custom {
+    background: rgba(24, 24, 16, 0.2);
+    border-radius: 2em;
+    backdrop-filter: blur(25px);
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+  }
+
+  .btn1 {
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
+   }
+   
+   .btn1:hover {
+    letter-spacing: 3px;
+    background-color: hsl(353, 80%, 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(220, 24, 47) 0px 7px 29px 0px;
+   }
+   
+
+  .btn2 {
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
+   }
+   
+   .btn2:hover {
+    letter-spacing: 3px;
+    background-color: hsl(34, 100%, 53%);
+    color: hsl(0, 0%, 99%);
+    box-shadow: rgb(220, 24, 47) 0px 7px 29px 0px;
+   }
+   
+  .btn3 {
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
+   }
+   
+   .btn3:hover {
+    letter-spacing: 3px;
+    background-color: hsl(135, 100%, 53%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(83, 220, 24) 0px 7px 29px 0px;
+   }
+   .allbtn{
+    display : flex ;
+    justify-content: space-around;
+   }
